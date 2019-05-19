@@ -16,6 +16,7 @@ function nextSmaller(numberString)	{
 	var i=arr.length-1;
 	for(; i>0; --i){
 		if(arr[i]<arr[i-1]){
+
 			break;
 		}
 	
